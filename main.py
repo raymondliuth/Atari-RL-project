@@ -4,4 +4,6 @@ env.reset()
 done = False
 while not done:
     env.step(env.action_space.sample())
+
+    print(1)
 env.close()
