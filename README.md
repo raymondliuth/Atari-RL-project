@@ -1,6 +1,7 @@
 # Atari-RL-project
 
 **Project for IEORE6617 course**
+
 Reinforcement Learning with Vision Transformers/ Performers For OpenAi Gym Atari Games
 
 Author: Tianhao Liu
