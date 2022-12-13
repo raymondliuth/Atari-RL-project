@@ -240,7 +240,7 @@ while True:  # Run until solved
     print(episode_count)
 
     if episode_count % 10 == 0:
-        with open('attention_training_reward.txt', 'a') as f:
+        with open('result/attention_training_reward.txt', 'a') as f:
             f.write(f"{episode_count},{time.time()-time_start},{running_reward}")
             f.write('\n')
 

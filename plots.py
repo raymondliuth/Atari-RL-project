@@ -1,9 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-attention_table = pd.read_csv("attention_training_reward.txt", sep = ',', header = None)
-performer_table = pd.read_csv("performer_training_reward.txt", sep = ',', header = None)
-cnn_table = pd.read_csv("CNN_training_reward.txt", sep = ',', header = None)
+attention_table = pd.read_csv("result/attention_training_reward.txt", sep =',', header = None)
+performer_table = pd.read_csv("result/performer_training_reward.txt", sep =',', header = None)
+cnn_table = pd.read_csv("result/CNN_training_reward.txt", sep =',', header = None)
 
 print(cnn_table)
 
