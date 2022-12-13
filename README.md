@@ -2,6 +2,8 @@
 Reinforcement Learning For OpenAi Gym Atari Games
 
 Project for IEORE6617 course
+Author: Tianhao Liu
+Date: 12/12/2022
 
 This project implements a deep Q learning (DQN) model for the Atari game "breakout". 
 
